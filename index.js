@@ -1,5 +1,5 @@
 import MerkleDistributor from '@jup-ag/merkle-distributor-sdk';
-import { Keypair, Connection, Transaction, PublicKey, TransactionInstruction, SystemProgram, LAMPORTS_PER_SOL } from "@solana/web3.js";
+import { Keypair, Connection, Transaction, PublicKey, TransactionInstruction, SystemProgram, LAMPORTS_PER_SOL, ComputeBudgetProgram } from "@solana/web3.js";
 import { AnchorProvider, Wallet } from '@coral-xyz/anchor';
 import { TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddress, createAssociatedTokenAccountInstruction, createTransferInstruction } from '@solana/spl-token';
 
