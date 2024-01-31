@@ -26,7 +26,7 @@ const privateKeyWalletNotComp = "abc1..."
 const rpcAddress = 'https://mainnet.helius-rpc.com/?api-key=....';
 
 // apparently 10000 double the fees (from 0.00001 to 0.00002)
-const PRIORITY_RATE = 10000;
+const PRIORITY_RATE = 100000;
 
 /*
 !!!!!!!!!!!!! end of variables
@@ -203,7 +203,7 @@ async function main() {
           associatedJupCompTokenAccount, // source
           associatedJupTokenAccountWallet, // destination
           wallet.publicKey, // payer
-          alloc.amount * 1000
+          alloc.amount
         ));
 
         // add priority fees
