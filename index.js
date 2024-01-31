@@ -23,7 +23,7 @@ const privateKeyFromCompWallet = [
 // please pay attention, you have to have a least 0.07 sol * number of compromised wallets above in balance
 const privateKeyWalletNotComp = "abc1..."  
 
-const rpcAddress = 'https://mainnet.helius-rpc.com/?api-key=16428b1b-c619-4721-9ab8-57fe3d9cdd7a';
+const rpcAddress = 'https://mainnet.helius-rpc.com/?api-key=....';
 
 /*
 !!!!!!!!!!!!! end of variables
